@@ -2,7 +2,7 @@ import { getCustomRepository, Repository } from "typeorm";
 import { User } from "../entities/User";
 import { UserRepository } from "../repositories/UsersRepository";
 
-class UserService {
+class UsersService {
     private usersRepository: Repository<User>;
 
     constructor() {
@@ -29,4 +29,4 @@ class UserService {
     }
 }
 
-export { UserService };
+export { UsersService };
